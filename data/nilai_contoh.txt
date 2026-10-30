@@ -1,0 +1,28 @@
+from src.analisis import (
+    hitung_persegi,
+    hitung_persegi_panjang,
+    hitung_segitiga,
+    hitung_lingkaran,
+    hitung_kubus,
+    hitung_balok
+)
+
+print("=== PENGUJIAN NILAI CONTOH ===")
+
+print("\n1. Persegi")
+print(hitung_persegi(5))
+
+print("\n2. Persegi Panjang")
+print(hitung_persegi_panjang(8, 4))
+
+print("\n3. Segitiga")
+print(hitung_segitiga(10, 6))
+
+print("\n4. Lingkaran")
+print(hitung_lingkaran(7))
+
+print("\n5. Kubus")
+print(hitung_kubus(4))
+
+print("\n6. Balok")
+print(hitung_balok(8, 5, 3))
